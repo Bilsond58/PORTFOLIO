@@ -7,8 +7,11 @@ const HeroSection = () => {
     // Create a link to download the actual CV
     const link = document.createElement('a');
     link.href = '/lovable-uploads/26dc2ee2-0376-40ab-832c-27823b328873.png';
-    link.download = 'Bilson_Digal_CV.pdf';
+    link.download = 'Bilson_Digal_CV.png';
+    link.target = '_blank';
+    document.body.appendChild(link);
     link.click();
+    document.body.removeChild(link);
   };
 
   const scrollToProjects = () => {
