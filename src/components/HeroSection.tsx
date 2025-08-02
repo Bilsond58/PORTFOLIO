@@ -4,9 +4,9 @@ import avatar3D from "@/assets/avatar-3d.png";
 
 const HeroSection = () => {
   const downloadCV = () => {
-    // Create a link to download the CV
+    // Create a link to download the actual CV
     const link = document.createElement('a');
-    link.href = '/lovable-uploads/06277876-04a6-42cb-ba47-3dab0f10136d.png'; // User's CV
+    link.href = '/lovable-uploads/26dc2ee2-0376-40ab-832c-27823b328873.png';
     link.download = 'Bilson_Digal_CV.pdf';
     link.click();
   };
