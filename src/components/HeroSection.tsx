@@ -34,7 +34,7 @@ const HeroSection = () => {
     },
     {
       icon: Github,
-      href: "https://github.com/Bilsond",
+      href: "https://github.com/Bilsond58",
       label: "GitHub"
     },
     {

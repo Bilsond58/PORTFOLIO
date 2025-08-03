@@ -25,7 +25,7 @@ const Footer = () => {
       icon: Github,
       href: "https://github.com/Bilsond58",
       label: "GitHub"
-},
+    },
     {
       icon: MessageCircle,
       href: "https://wa.me/8917606856",
