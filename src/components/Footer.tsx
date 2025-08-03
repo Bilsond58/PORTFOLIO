@@ -28,7 +28,7 @@ const Footer = () => {
     },
     {
       icon: MessageCircle,
-      href: "https://wa.me/8917606856",
+      href: "https://wa.me/918917606856",
       label: "WhatsApp"
     }
   ];

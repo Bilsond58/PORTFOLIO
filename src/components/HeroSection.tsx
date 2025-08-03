@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Instagram, Linkedin, Github, MessageCircle } from "lucide-react";
-import avatar3D from "@/assets/avatar-3d.png";
+import avatarImage from "/lovable-uploads/b5ea5af8-311e-46a6-906f-7a5d39d8b4de.png";
 
 const HeroSection = () => {
   const downloadCV = () => {
@@ -39,7 +39,7 @@ const HeroSection = () => {
     },
     {
       icon: MessageCircle,
-      href: "https://wa.me/8917606856",
+      href: "https://wa.me/918917606856",
       label: "WhatsApp"
     }
   ];
@@ -123,8 +123,8 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-primary rounded-full blur-3xl opacity-30 scale-110"></div>
               <div className="relative w-80 h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-glow">
                 <img 
-                  src={avatar3D} 
-                  alt="Bilson Digal 3D Avatar" 
+                  src={avatarImage} 
+                  alt="Bilson Digal Profile Photo" 
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
                 />
               </div>
