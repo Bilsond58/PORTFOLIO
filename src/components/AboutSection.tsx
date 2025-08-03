@@ -1,4 +1,4 @@
-import avatar3D from "@/assets/avatar-3d.png";
+import avatarImage from "/lovable-uploads/b5ea5af8-311e-46a6-906f-7a5d39d8b4de.png";
 
 const AboutSection = () => {
   const skills = [
@@ -26,8 +26,8 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-gradient-primary rounded-3xl blur-3xl opacity-20 scale-110"></div>
               <div className="relative w-80 h-80 rounded-3xl overflow-hidden border border-border bg-card shadow-purple">
                 <img 
-                  src={avatar3D} 
-                  alt="Bilson Digal Avatar" 
+                  src={avatarImage} 
+                  alt="Bilson Digal Profile Photo" 
                   className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
                 />
               </div>
