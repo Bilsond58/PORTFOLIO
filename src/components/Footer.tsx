@@ -23,7 +23,9 @@ const Footer = () => {
     },
     {
       icon: Github,
-      href : "https://github.com/Bilsond58"
+      href: "https://github.com/Bilsond58",
+      label: "GitHub"
+}
 
       label: "GitHub"
     },
